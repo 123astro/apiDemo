@@ -20,6 +20,11 @@ public class UserController {
         return requestData;
     }
 
+    @GetMapping("/")
+    public String rootRoute(){
+        return "You are Home!";
+    }
+
     @GetMapping("/jsonplaceholder/{id}")
     public Object jphUser(RestTemplate restTemplate, @PathVariable("id") String userId ) {
         Object requestData = restTemplate.getForObject("https://jsonplaceholder.typicode.com/users/" +  userId,
