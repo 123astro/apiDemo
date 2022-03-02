@@ -1,4 +1,4 @@
-package com.careerdevs.apiDemo;
+package com.careerdevs.apidemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

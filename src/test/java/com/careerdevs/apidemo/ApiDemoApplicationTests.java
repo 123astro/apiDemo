@@ -1,4 +1,4 @@
-package com.careerdevs.apiDemo;
+package com.careerdevs.apidemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
